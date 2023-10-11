@@ -1,0 +1,27 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+body{
+	font-family: 'SolaimanLipi', sans-serif;
+}
+marquee a{
+	color: var(--secondary-red);
+}
+.teacher-talk h3{
+	text-align: justify;
+	
+}
+.image-gallery{
+	display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-flow: dense;
+    margin: 20px auto;
+}
